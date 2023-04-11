@@ -1,0 +1,95 @@
+body {
+background-image: url(../imagens/fundo\ certo.jpg);
+background-size: cover;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a {
+    font-size: 8.rem;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
+#bloco-de-login {
+    background-color:white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    border-radius: 15px;
+    text-align: center;
+}
+#bloco-de-login h1 {
+    padding: 10px;
+    margin-bottom: -15px;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label {
+    font-weight: bold;
+    font-size: 8.rem;
+}
+
+input {
+    border-bottom: 2px solid black;
+   padding: 10px;
+   font-size: 8.rem;
+   margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid cornflowerblue;
+}
+
+#esqueceu-sua-senha {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 4px;
+    color: #fff;
+    background-color: rgb(65, 51, 152);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+#registro {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    padding: 10px;
+}
+
+
+
